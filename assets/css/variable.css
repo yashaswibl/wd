@@ -1,0 +1,9 @@
+/* theme style */
+
+:root{
+    --content-font-size:14px;
+    --font-color-black:#111;
+    --theme-color:#5b2e8f;
+    --offwhite:#e7e7e8;  
+    --footer-color: #191919; 
+}
