@@ -603,7 +603,7 @@ footer
     margin: 0;
 }
 .logos li, .sub-footer ul li{
-    display: inline-block;
+    display: inline;
 }
 .footer-links li{
     padding: 2px 0px;

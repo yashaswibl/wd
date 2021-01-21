@@ -2,6 +2,19 @@
 
 /* navbar */
 @media screen and (max-width: 768px) {
+    h1{
+      font-size: 61px !important;
+    }
+    .banner-image button{
+      bottom: 20px;
+    }
+
+    .footer img {
+      width: 23%;
+     }
+     .tm-c{
+       font-size: 14px;
+     }
     .nav-menu {
         background: #fff;
         flex-direction: column;
