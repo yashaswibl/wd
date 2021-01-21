@@ -5,6 +5,9 @@
     /* h1{
       font-size: 61px !important;
     } */
+    .recomended_provider h4{
+      text-align: center;
+    }
     .banner-image button{
       bottom: 20px;
     }
