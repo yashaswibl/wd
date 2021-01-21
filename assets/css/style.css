@@ -558,9 +558,13 @@ table style
     padding: 18px 17px !important;
 }
 
+.table-bordered {
+  width: 100%;
+}
 .accessories{
   border-left: solid 3px #ceced0;
 }
+
    /* ==============================
 FAQs
   =================================*/
