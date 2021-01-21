@@ -561,6 +561,11 @@ table style
 .table-bordered {
   width: 100%;
 }
+
+.table span{
+  color: var(--theme-color);
+  font-weight: 700;
+}
 .accessories{
   border-left: solid 3px #ceced0;
 }
