@@ -133,7 +133,7 @@
         display: inline-block;
       }
       .menu-active .nav-menu {
-        transform: translatey(227px);
+        transform: translatey(140px);
         opacity: 1;
       }
 
