@@ -259,6 +259,19 @@ navbar
    .find-cctv{
      background-image: url(../images/banner/13-banner-2x.jpg);
    }
+   .storage-01{
+    background-image: url(../images/banner/5-Banner.png);
+  }
+  .storage-capacity{
+    background-image: url(../images/banner/10-banner-2x.jpg);
+  }
+
+  .disktop-slider{
+    display: block !important;
+  }
+  .mobile-slider{
+    display: none !important;
+  }
 
   .banner-top-padding{
     margin-top: 10px;
