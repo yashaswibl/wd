@@ -608,6 +608,10 @@ footer
 .footer-links li{
     padding: 2px 0px;
 }
+.footer-links span, .footer-links hr{
+ display: none;
+}
+
 .footer-links li a{
     color:#767676;
     font-size: 14px;

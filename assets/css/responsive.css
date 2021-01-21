@@ -8,6 +8,28 @@
     .recomended_provider h4{
       text-align: center;
     }
+
+
+
+    .footer-links li {
+      padding: 2px 13px;
+      display: inline-block;
+      text-align: center !important;
+      justify-content: center;
+  }
+  .footer-links span{
+    display: inline;
+    padding-left: 17px;
+  }
+  .footer-links hr{
+    display: block;
+    background: white;
+  }
+
+  .logos, .footer-links, .sub-footer ul{
+    padding: 11px 0px;
+    text-align: center;
+  }
     .banner-image button{
       bottom: 20px;
     }
