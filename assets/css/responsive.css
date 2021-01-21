@@ -2,16 +2,64 @@
 
 /* navbar */
 @media screen and (max-width: 768px) {
-    /* h1{
-      font-size: 61px !important;
-    } */
+    h1{
+      font-size: 30px !important;
+    }
+
+    /* banner */
+    .video{
+      background-image: url(../images/banner/mobile/3.jpg) !important;
+    }
+    .blog-img{
+      background-image: url(../images/banner/mobile/10.jpg) !important;
+     }
+
+     .cctv{
+      background-image: url(../images/banner/mobile/2.jpg) !important;
+     }
+     .faq-img{
+      background-image: url(../images/banner/mobile/9.jpg) !important;
+     }
+     .find-cctv{
+      background-image: url(../images/banner/mobile/11.jpg) !important;
+    }
     .recomended_provider h4{
       text-align: center;
     }
+    .grid-01 .pro{
+      padding: 0px 16px;
+    }
+    .banner-image h3{
+      font-size: 15px !important;
+    }
+
+    .banner-image button {
+      bottom: 20px;
+      right: 34px;
+      margin: 0;
+      left: unset;
+      bottom: 36px;
+   }
+   .banner-image .purple{
+    padding: 4px 10px;
+    font-size: 10px;
+   }
 
 
   .table>:not(caption)>*>*{
     border: solid #a3a0a0 4px;
+  }
+
+  .banner-image .container{
+    padding: 0px 18px;
+    z-index: 2;
+  }
+
+  .banner-image img{
+    z-index: 1;
+  }
+  .banner-image {
+    height: 384px;
   }
 
 
@@ -34,10 +82,6 @@
     padding: 11px 0px;
     text-align: center;
   }
-    .banner-image button{
-      bottom: 20px;
-    }
-
     .footer img {
       width: 23%;
      }

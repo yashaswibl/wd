@@ -241,11 +241,30 @@ navbar
       background-size: cover;
       margin-top: 72px;
   }
+
+   .video{
+     background-image: url(../images/banner/3Banner\ 2x.jpg);
+   }
+
+   .blog-img{
+    background-image: url(../images/banner/blog.jpg);
+   }
+
+   .cctv{
+    background-image: url(../images/banner/banner2x.jpg);
+   }
+   .faq-img{
+    background-image: url(../images/banner/11-banner.jpg);
+   }
+   .find-cctv{
+     background-image: url(../images/banner/13-banner-2x.jpg);
+   }
+
   .banner-top-padding{
     margin-top: 10px;
   }
   .banner-image h1,  .banner-image h3{
-     color: #5d5d5e;
+     color: #3c3c3f;
   }
   .banner-image h3{
     font-weight: 400 !important;
@@ -334,6 +353,10 @@ navbar
 
   .grid-01{
       font-size: var(--content-font-size);
+  }
+
+  .grid-01 .pro{
+    padding: 0px 24px;
   }
 
   .border-cornor{
