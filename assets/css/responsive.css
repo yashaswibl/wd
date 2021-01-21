@@ -2,9 +2,9 @@
 
 /* navbar */
 @media screen and (max-width: 768px) {
-    h1{
+    /* h1{
       font-size: 61px !important;
-    }
+    } */
     .banner-image button{
       bottom: 20px;
     }
