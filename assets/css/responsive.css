@@ -134,8 +134,9 @@
         display: inline-block;
       }
       .menu-active .nav-menu {
-        transform: translatey(140px);
+        transform: translatey(69px);
         opacity: 1;
+        height: 100vh;
       }
 
     .nav-menu .menu-item a {
@@ -155,7 +156,7 @@
 
     /*  */
     .padding-44 {
-        padding: 44px 19px;
+        padding: 44px 30px;
     }
 
     .recomended_provider{
