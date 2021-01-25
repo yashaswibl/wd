@@ -1,8 +1,8 @@
 /* theme settings */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body{
-  overflow-x: hidden;
+html, body{
+  overflow-x: hidden !important;
 }
 p{
     font-size: var(--content-font-size) !important;
@@ -354,13 +354,19 @@ navbar
  /* ==============================
   grid section 
   =================================*/
+  .st .grid{
+    height: 336px !important;
+    max-height: 500px;
+  }
   .grid{
     background-color: #f3f3f4;
     padding: 32px 17px;
     font-size: 14px;
     text-align: center;
     margin: 4px;
+
   }
+
   .transparent{
       background-color: transparent !important;
   }
