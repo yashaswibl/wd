@@ -196,7 +196,7 @@ navbar
 #menu {
   position: fixed;
   color: #999;
-  top: 72px;
+  top: 35px;
   z-index: 99;
   margin-top: 36px;
   width: 100%;
