@@ -483,6 +483,12 @@ li a:focus {
     margin: 4px;
 
   }
+  .grid a{
+    color: #212529;
+  }
+  .grid a:hover{
+    color: var(--theme-color);
+  }
 
   .transparent{
       background-color: transparent !important;
