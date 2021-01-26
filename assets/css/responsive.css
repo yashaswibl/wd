@@ -2,6 +2,9 @@
 
 /* navbar */
 @media screen and (max-width: 768px) {
+  #toggle {
+    display: inline-block;
+  }
     h1{
       font-size: 27px !important;
     }
@@ -150,7 +153,6 @@
       position: relative;
       width: 100%;
       display: none;
-      background-color: rgba(0, 0, 0, 0.2);
       box-sizing: border-box;
     }
 

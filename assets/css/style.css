@@ -1,7 +1,7 @@
 /* theme settings */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-html, body{
+html,body{
   overflow-x: hidden !important;
 }
 p{
@@ -111,7 +111,7 @@ navbar
     position: fixed !important;
     top: 0;
     width: 100% !important;
-    z-index: 100;
+    z-index: 99;
     align-items: center;
     background: #fff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -138,6 +138,107 @@ navbar
     width: 30px;
     z-index: 1000;
   }
+/* Important styles */
+#toggle {
+  z-index: 100;
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+  position: absolute;
+  top: 6px;
+  right: 30px;
+  display: none;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  position: absolute;
+  color: #999;
+  top: 72px;
+  z-index: 99;
+  margin-top: 36px;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+li a:hover,
+li a:focus {
+  color: #919191;
+}
+
   .hamburger-line {
     background: #272727;
     height: 3px;
@@ -228,6 +329,23 @@ navbar
     background-color: #fff;
   }
 
+  .mobile-nav{
+    background-color: #fff;
+    width: 100%;
+    padding: 18px;
+    margin-top: 70px;
+    float: right;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .mobile-nav ul{
+    list-style-type: none;
+  }
+
+  .mobile-nav li{
+    padding: 8px 0px;
+  }
 
   /* ==============================
   banner images 
@@ -680,6 +798,7 @@ footer
     color: #767676;
     font-size: 12px;
     text-decoration: none;
+    display: inline-block;
     font-weight: 400;
     padding: 5px 9px 5px 0px;
 }
