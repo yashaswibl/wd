@@ -318,6 +318,9 @@ li a:focus {
     width: 230px;
   }
 
+  .sub-nav  b{
+     text-transform: uppercase;
+  }
   
   .nav__link:hover + .sub-nav {
     display: block;
