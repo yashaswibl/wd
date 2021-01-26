@@ -145,7 +145,7 @@ navbar
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
-  position: absolute;
+  position: fixed;
   top: 6px;
   right: 30px;
   display: none;
