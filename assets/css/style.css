@@ -238,20 +238,20 @@ navbar
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
 }
-ul, li, li a {
-  list-style: none;
+.mb li, li a {
+  list-style-type: none;
   display: block;
   margin: 0;
   padding: 0;
 }
-li a {
+.mb li a {
   padding: 5px;
   color: #888;
   text-decoration: none;
   transition: all .2s;
 }
-li a:hover,
-li a:focus {
+.mb li a:hover,
+.mb li a:focus {
   color: #919191;
 }
 
@@ -672,7 +672,7 @@ h6{
     position: relative;
 }
 
-.ul-03 li{
+.ul-03 li a{
   font-size: var(--content-font-size);
 }
 .ul-03 b{
