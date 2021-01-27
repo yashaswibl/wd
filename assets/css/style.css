@@ -15,6 +15,14 @@ p{
 }
 a{
   text-decoration: none !important;
+
+}
+.gray a{
+  color: #000000 !important;
+}
+a:hover{
+  text-decoration: none !important;
+  color: var(--theme-color) !important;
 }
 h3{
     font-size: 21px !important;
@@ -663,6 +671,13 @@ h6{
 
 .ul-03 li{
   font-size: var(--content-font-size);
+}
+.ul-03 b{
+  line-height: 2.3 !important;
+}
+
+.ul-03 li a{
+ color: #111;
 }
 
 
