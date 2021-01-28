@@ -506,6 +506,10 @@ navbar
     margin: 4px;
 
   }
+.nvr-dvr .grid{
+  padding: 28px 9px;
+}
+
   .grid a{
     color: #212529;
   }
