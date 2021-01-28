@@ -409,6 +409,7 @@ navbar
 
   .disktop-slider{
     display: block !important;
+    width: 100% ;
   }
   .mobile-slider{
     display: none !important;
