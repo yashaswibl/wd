@@ -843,5 +843,7 @@ footer
     padding: 5px 9px 5px 0px;
 }
 
-
+.noHovera{
+  pointer-events: none;
+}
 
